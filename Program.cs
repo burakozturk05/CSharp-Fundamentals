@@ -13,7 +13,7 @@ Array values1 = Array.CreateInstance(typeof(int), 3); // We can also use this me
 #endregion
 #region How to call Array element and assign a value.
 int[] yaslar = new int[] { 1, 3, 5, 7 };
-yaslar[3] = 5; // Its not have to be in order when assigning value..
+yaslar[3] = 5; // Its not have to be in order when assigning value.. //dgfdgd
 yaslar[2] = 16;
 yaslar[0] = 27;
 Console.WriteLine(yaslar); // You can not use array's name when calling them. Because Console.WriteLine 
